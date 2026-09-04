@@ -1,0 +1,5 @@
+# Normalize line endings: keep LF in repo, allow platform conversion on checkout
+* text=auto
+
+# Ensure Python files use LF in repo (helps CI)
+*.py text eol=lf
